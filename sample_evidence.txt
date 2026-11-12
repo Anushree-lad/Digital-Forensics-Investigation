@@ -1,0 +1,121 @@
+==================================================
+       DIGITAL FORENSICS INVESTIGATION
+==================================================
+
+CASE INFORMATION
+
+Case ID          : CASE-001
+Investigator     : Anushree Lad
+Evidence ID      : EV-0001
+Evidence Type    : Windows Security Activity Log
+Investigation Date: 12-11-2026
+System Name      : TEST-WORKSTATION-01
+Operating System : Windows 11
+Incident Status  : Under Investigation
+
+--------------------------------------------------
+INCIDENT DESCRIPTION
+--------------------------------------------------
+
+A suspicious login activity was reported on a test
+computer. Multiple failed authentication attempts
+were observed, followed by a successful login.
+
+The investigator collected simulated security
+records for forensic examination.
+
+--------------------------------------------------
+NETWORK INFORMATION
+--------------------------------------------------
+
+System IP Address : 192.0.2.10
+Suspicious Source : 198.51.100.45
+Protocol          : TCP
+Target Port       : 3389
+Service           : Remote Desktop Protocol
+
+--------------------------------------------------
+SECURITY ACTIVITY LOG
+--------------------------------------------------
+
+[09:15:12] EVENT ID: 4624
+STATUS: SUCCESSFUL LOGIN
+USERNAME: testuser
+SOURCE IP: 192.0.2.10
+DETAILS: User successfully logged into the system.
+
+[09:22:35] EVENT ID: 4625
+STATUS: FAILED LOGIN
+USERNAME: administrator
+SOURCE IP: 198.51.100.45
+DETAILS: Incorrect password entered.
+
+[09:23:10] EVENT ID: 4625
+STATUS: FAILED LOGIN
+USERNAME: administrator
+SOURCE IP: 198.51.100.45
+DETAILS: Authentication failed.
+
+[09:24:02] EVENT ID: 4625
+STATUS: FAILED LOGIN
+USERNAME: administrator
+SOURCE IP: 198.51.100.45
+DETAILS: Repeated login attempt detected.
+
+[09:30:45] EVENT ID: 4624
+STATUS: SUCCESSFUL LOGIN
+USERNAME: testuser
+SOURCE IP: 192.0.2.10
+DETAILS: Successful local authentication.
+
+[09:35:20] EVENT ID: 4688
+STATUS: PROCESS CREATED
+PROCESS NAME: unknown_app.exe
+USER: testuser
+DETAILS: New process execution recorded.
+
+[09:42:15] EVENT ID: 4663
+STATUS: FILE ACCESS
+FILE NAME: suspicious_file.txt
+USER: testuser
+DETAILS: File access activity recorded.
+
+[09:50:30] EVENT ID: 4634
+STATUS: LOGOFF
+USERNAME: testuser
+DETAILS: User session ended.
+
+--------------------------------------------------
+SUSPICIOUS ACTIVITY SUMMARY
+--------------------------------------------------
+
+1. Multiple failed login attempts.
+2. Repeated authentication attempts from one
+   external test IP address.
+3. Unknown application execution.
+4. Access to a suspicious test file.
+5. Successful login following failed attempts.
+
+--------------------------------------------------
+INVESTIGATION NOTES
+--------------------------------------------------
+
+1. Examine failed authentication records.
+2. Investigate the unknown application.
+3. Extract metadata from suspicious_file.txt.
+4. Calculate SHA-256 hashes.
+5. Verify evidence integrity.
+6. Examine file activity timestamps.
+7. Maintain Chain of Custody records.
+
+--------------------------------------------------
+FINAL STATUS
+--------------------------------------------------
+
+Investigation Status: PENDING
+Evidence Classification: SIMULATED TEST DATA
+Conclusion: Further examination required.
+
+==================================================
+             END OF EVIDENCE
+==================================================

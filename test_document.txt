@@ -1,0 +1,104 @@
+==================================================
+          FORENSIC EXAMINATION REPORT
+==================================================
+
+CASE DETAILS
+
+Case ID          : CASE-001
+Investigator     : Anushree Lad
+Evidence ID      : EV-0002
+Document Name    : Forensic Examination Notes
+Category         : Digital Forensics
+File Format      : TXT
+Investigation Date: 12-11-2026
+
+--------------------------------------------------
+INVESTIGATION OBJECTIVES
+--------------------------------------------------
+
+The purpose of this document is to test the
+ForensiX Digital Forensics Investigation Toolkit.
+
+The investigation includes the following activities:
+
+1. Digital Evidence Collection
+2. File Metadata Extraction
+3. MD5 Hash Generation
+4. SHA-256 Hash Generation
+5. Evidence Integrity Verification
+6. Duplicate File Detection
+7. Forensic Timeline Analysis
+8. Chain of Custody Documentation
+9. Investigation Report Generation
+
+--------------------------------------------------
+FILE EXAMINATION DETAILS
+--------------------------------------------------
+
+Test File 1: sample_evidence.txt
+Test File 2: test_document.txt
+Test File 3: suspicious_file.txt
+
+Expected Examination:
+
+- Identify file names and extensions.
+- Calculate file sizes.
+- Extract filesystem timestamps.
+- Generate cryptographic hashes.
+- Identify identical files.
+- Record evidence collection time.
+- Compare original and collected hashes.
+
+--------------------------------------------------
+SIMULATED INVESTIGATION FINDINGS
+--------------------------------------------------
+
+Finding 01:
+Multiple failed login attempts were recorded.
+
+Finding 02:
+A suspicious source IP was identified in the
+simulated security activity records.
+
+Finding 03:
+An unknown application execution event was
+recorded.
+
+Finding 04:
+A suspicious text file was accessed.
+
+Finding 05:
+Additional integrity verification is required.
+
+--------------------------------------------------
+EVIDENCE HANDLING RULES
+--------------------------------------------------
+
+1. Preserve original collected evidence.
+2. Perform analysis on working copies.
+3. Record every evidence handling activity.
+4. Maintain SHA-256 verification records.
+5. Document all investigation findings.
+6. Never overwrite original evidence.
+
+--------------------------------------------------
+TEST ENVIRONMENT
+--------------------------------------------------
+
+Application : ForensiX
+Programming : Python
+Operating System: Windows
+Database    : JSON
+Hashing     : MD5 / SHA-256
+
+--------------------------------------------------
+REPORT STATUS
+--------------------------------------------------
+
+Document Type: SIMULATED FORENSIC TEST DATA
+Case Status : OPEN
+Investigator: Anushree Lad
+
+==================================================
+             END OF DOCUMENT
+==================================================

@@ -1,0 +1,22 @@
+FILE EXAMINATION RECORD
+
+File Name: suspicious_file.txt
+File Type: TXT
+Classification: SIMULATED SUSPICIOUS FILE
+
+Observed Activities:
+
+09:35 AM - File created.
+09:42 AM - File accessed.
+09:45 AM - File examined by investigator.
+
+Investigation Purpose:
+
+Test metadata extraction.
+Test SHA-256 generation.
+Test duplicate detection.
+Test forensic timeline generation.
+
+No actual malware or malicious code is present.
+
+END OF RECORD
